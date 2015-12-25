@@ -37,3 +37,6 @@ if status --is-login
 	end
 end
 
+if test -f /etc/fish/config.fish
+  source /etc/fish/config.fish
+end
