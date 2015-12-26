@@ -101,7 +101,7 @@ function __fish_config_interactive -d "Initializations that should be performed 
         eval "$__fish_bin_dir/fish -c 'fish_update_completions > /dev/null ^/dev/null' &"
     end
 
-	if status -i
+	if builtin status -i
 		#
 		# Print a greeting
 		#
